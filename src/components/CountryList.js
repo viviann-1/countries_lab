@@ -8,7 +8,12 @@ const CountryList =({countries}) => {
 
     return (
         <>
-       {mappedCountries}
+         <section>
+      <h2 className="CountryListHeading">All Countries</h2>
+      <div className="allCountries">{mappedCountries}</div>
+    </section>
+
+       {/* {mappedCountries} */}
         
         </>
 
